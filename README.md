@@ -2,12 +2,14 @@
 
 ## **Built with:**
 
-- NEXT.js
-- Tailwindcss
+- Next.js
+- Tailwind CSS
 - JavaScript
 
 ### todo:
 
-- navbar
-- footer
-- content
+- portfolio
+- contact
+- about
+- footer w/ links
+
