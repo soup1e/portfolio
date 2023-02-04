@@ -7,7 +7,7 @@ export default function Layout({ children, title }) {
   return (
     <div>
       <Head>
-        <title>sam // {title}</title>
+        <title>{`sam // ${title}`}</title>
       </Head>
       <Nav />
       <main>{children}</main>
