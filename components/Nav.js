@@ -17,7 +17,7 @@ export default function Nav() {
       </div>
       <div className="block lg:hidden">
         <button
-          className="flex items-center px-3 py-3 border rounded text-gray-50 border-white hover:text-purple-00 hover:border-purple-900"
+          className="flex items-center px-2.5 py-2.5 border rounded text-gray-50 border-white hover:text-purple-00 hover:border-indigo-700"
           onClick={handleClick}
         >
           <svg
@@ -53,28 +53,28 @@ export default function Nav() {
       <div
         className={
           isActive
-            ? "opacity-0 hidden"
+            ? "hidden"
             : "w-full block flex-grow lg:flex lg:items-center lg:w-auto"
         }
       >
         <div className="text-sm lg:flex-grow ">
           <Link
             href="/about"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-purple-500 hover:transition-all duration-700 mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-indigo-400 hover:transition-all duration-700 mr-4"
           >
             about
           </Link>
 
           <Link
             href="/portfolio"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-purple-500 hover:transition-all duration-700 mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-indigo-400 hover:transition-all duration-700 mr-4"
           >
             portfolio
           </Link>
 
           <Link
             href="/contact"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-purple-500 hover:transition-all duration-700 mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-indigo-400 hover:transition-all duration-700 mr-4"
           >
             contact
           </Link>

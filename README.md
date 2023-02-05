@@ -11,5 +11,3 @@
 - portfolio
 - contact
 - about
-- footer w/ links
-
