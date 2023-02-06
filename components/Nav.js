@@ -53,13 +53,13 @@ export default function Nav() {
       <div
         className={
           isActive
-            ? "hidden"
-            : "w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+            ? "w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+            : "hidden lg:visible w-full flex-grow lg:flex lg:items-center lg:w-auto"
         }
       >
-        <div className="text-sm lg:flex-grow ">
+        <div className="text-m lg:flex-grow ">
           <Link
-            href="/about"
+            href="/"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-indigo-400 hover:transition-all duration-700 mr-4"
           >
             about
