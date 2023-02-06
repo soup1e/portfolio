@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        Moblie: "70vh",
+      },
       keyframes: {
         bob: {
           "0%": { transform: "rotate(0.0deg)" },
