@@ -6,7 +6,7 @@ export default function Home() {
     <Layout title="home">
       <div className="flex justify-center items-center lg:h-screen h-Moblie ease-in-out duration-1000 delay-100">
         <div className="flex flex-col items-start gap-3">
-          <div className="flex flex-col mx-auto p-5 outline shadow-lg rounded-lg sm:flex-row sm:flex-wrap sm:gap-5 sm:items-end">
+          <div className="flex flex-col mx-auto p-5 outline outline-2 shadow-lg rounded-lg sm:flex-row sm:flex-wrap sm:gap-5 sm:items-end">
             <h1
               className="text-xl lg:text-6xl font-bold whitespace-nowrap text-transparent bg-white bg-clip-text hover:bg-gradient-to-tr from-indigo-500 to-pink-600 
               ease-in-out delay-100 duration-700"
@@ -27,7 +27,7 @@ export default function Home() {
             </Link>
             <Link
               className="outline hover:bg-indigo-900 text-gray-50 font-light py-0.5 px-2 rounded text-sm lg:text-base hover:transition-all duration-700"
-              href="samadams-resume.pdf"
+              href="samadamsresume.pdf"
               target="_blank"
             >
               resume
