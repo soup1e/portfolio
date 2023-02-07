@@ -9,8 +9,8 @@ export default function Nav() {
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-5">
-      <div className="flex items-center flex-shrink-0 text-transparent bg-purple-400 bg-clip-text hover:bg-gradient-to-r from-purple-400 to-pink-600 mr-6 hover:animate-bobbing">
+    <nav className="flex justify-between flex-wrap p-4 lg:gap-5">
+      <div className="flex items-center flex-shrink-0 text-transparent bg-purple-400 bg-clip-text hover:bg-gradient-to-r from-purple-400 to-pink-600 gap-5 hover:animate-bobbing">
         <Link href="/" className="font-semibold text-xl tracking-tight">
           sam adams
         </Link>
