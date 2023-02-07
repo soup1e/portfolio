@@ -8,3 +8,10 @@ html {
   color: #ededed;
   background-color: #121212;
 }
+
+@layer components {
+  .boxed-list {
+    @apply lg:w-1/6 min-w-fit w-full block text-center outline rounded-md outline-2
+      m-4 p-4;
+  }
+}

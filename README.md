@@ -11,8 +11,7 @@
 ### **portfolio**
 
 - portfolio
-- contact
-- about
+- about me
 - light mode/interactive settings
 - game page
 - habits page ex. gym tracker, screen time api, coding habits
