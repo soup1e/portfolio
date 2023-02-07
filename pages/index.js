@@ -31,9 +31,26 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="flex justify-center items-center text-center h-full">
+        <div className="w-3/5">
+          <h1 className="text-3xl text-gray-300 mb-5">about me //</h1>
+          <p className="lg:text-l text-base text-gray-400 mb-80">
+            Hi, I&apos;m Sam! I am a dedicated software developer with an
+            unrelenting desire to learn about new technologies and a love for
+            creating visually appealing user interfaces. My commitment to
+            continuously expanding my knowledge of programming principles allows
+            me to approach each task with enthusiasm and a strong drive to
+            deliver a high-quality product, whether working independently or as
+            part of a team. In my spare time, I enjoy delving into different
+            aspects of technology, such as computers and keyboards, and pursuing
+            my hobbies of video editing and staying active, whether it be in the
+            gym or outside.
+          </p>
+        </div>
+      </div>
       <div className="flex justify-center items-center h-full mb-40 ease-in-out duration-1000 delay-100">
         <ul className="flex flex-wrap justify-center w-3/5 items-left lg:flex-row gap-3 text-gray-300">
-          <h1 className="header p-5 w-full text-gray-400 text-3xl text-center">
+          <h1 className="p-5 w-full text-gray-300 text-3xl text-center">
             tech //
           </h1>
           <li className="boxed-list">JavaScript</li>
@@ -44,7 +61,7 @@ export default function Home() {
           <li className="boxed-list">Express</li>
           <li className="boxed-list">TailwindCSS</li>
           <li className="boxed-list">Next.js</li>
-          <h1 className="header p-5 w-full text-gray-400 text-3xl text-center">
+          <h1 className="p-5 w-full text-gray-300 text-3xl text-center">
             tools //
           </h1>
           <li className="boxed-list">Github</li>
