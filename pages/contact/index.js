@@ -31,7 +31,7 @@ export default function Contact() {
       <div className="main flex flex-col justify-center items-center gap-5">
         <h1 className="header p-5 text-gray-50 text-3xl">contact //</h1>
         <div className="h-screen flex flex-col justify-start items-center">
-          <div className="outline outline-3 outline-gray-400 rounded-lg p-4">
+          <div className="ring ring-gray-400 rounded-lg p-4">
             <form ref={form} onSubmit={sendEmail}>
               <div className="mb-4">
                 <label className="block font-bold mb-2 text-gray-50">
@@ -66,7 +66,7 @@ export default function Contact() {
               <button
                 type="submit"
                 value="Send"
-                className="outline outline-violet-500 hover:bg-indigo-900 text-gray-50 font-light py-0.5 px-7 rounded text-md lg:text-base hover:transition-all duration-700"
+                className="ring ring-violet-500 hover:bg-indigo-900 text-gray-50 font-light py-0.5 px-7 rounded text-md lg:text-base hover:transition-all duration-700"
               >
                 Submit
               </button>
