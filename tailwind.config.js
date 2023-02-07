@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        background: "#121212",
+      },
       height: {
         Moblie: "70vh",
       },
