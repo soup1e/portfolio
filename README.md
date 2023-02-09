@@ -10,9 +10,10 @@
 
 ### **portfolio**
 
-- light mode/interactive settings via framer motion
+- light mode/interactive settings
 - game page
 - habits page ex. gym tracker, screen time api, coding habits
+- linktree subdomain using app/ routing
 
 ### **project ideas**
 
