@@ -1,9 +1,10 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import Layout from "@/components/Layout";
 
 export default function Contact() {
   const form = useRef();
+  const [messageSent, setMessageSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,8 +18,8 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log("Email sent, Great success!");
           form.current.reset();
+          setMessageSent(true);
         },
         (error) => {
           console.log(error.text);
@@ -26,10 +27,22 @@ export default function Contact() {
       );
   };
 
+  useEffect(() => {
+    if (messageSent) {
+      setTimeout(() => {
+        setMessageSent(false);
+      }, 4000);
+    }
+  }, [messageSent]);
+
   return (
     <Layout title="contact">
-      <div className="main flex flex-col justify-center items-center gap-5">
-        <h1 className="header p-5 text-gray-50 text-3xl">contact //</h1>
+      {messageSent && (
+        <div className="sm:block lg:fixed lg:right-4 lg:top-10 w-full sm:w-auto rounded-lg bg-green-500 p-3 text-white opacity-100">
+          Message Sent.
+        </div>
+      )}
+      <div className="main flex flex-col justify-center items-center gap-5 lg:pt-64">
         <div className="h-screen flex flex-col justify-start items-center">
           <div className="ring ring-gray-400 rounded-lg p-4">
             <form ref={form} onSubmit={sendEmail}>

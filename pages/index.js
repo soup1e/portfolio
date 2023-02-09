@@ -35,16 +35,15 @@ export default function Home() {
         <div className="w-3/5">
           <h1 className="text-3xl text-gray-300 mb-5">about me //</h1>
           <p className="lg:text-l text-base text-gray-400 mb-80">
-            Hi, I&apos;m Sam! I am a dedicated software developer with an
-            unrelenting desire to learn about new technologies and a love for
-            creating visually appealing user interfaces. My commitment to
-            continuously expanding my knowledge of programming principles allows
-            me to approach each task with enthusiasm and a strong drive to
-            deliver a high-quality product, whether working independently or as
-            part of a team. In my spare time, I enjoy delving into different
-            aspects of technology, such as computers and keyboards, and pursuing
-            my hobbies of video editing and staying active, whether it be in the
-            gym or outside.
+            Hi, I&apos;m Sam! I am a dedicated software developer with an strong
+            desire to learn about new technologies and a love for creating
+            visually appealing user interfaces. I am always trying to expand my
+            knowledge of new programming principles. I approach each task with
+            enthusiasm and a strong drive to deliver a high-quality product,
+            whether working independently or as part of a team. In my spare
+            time, I enjoy learning different aspects of technology, such as
+            computers and keyboards, and pursuing my hobbies of video editing
+            and staying active, whether it be in the gym or outside.
           </p>
         </div>
       </div>
