@@ -10,8 +10,6 @@
 
 ### **portfolio**
 
-- portfolio
-- about me
 - light mode/interactive settings via framer motion
 - game page
 - habits page ex. gym tracker, screen time api, coding habits
