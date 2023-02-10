@@ -55,7 +55,14 @@ export default function Portfolio() {
                 JavaScript and deployed using Netlify.
               </p>
 
-              <div className="flex items-center mt-4">
+              <div className="flex items-center mt-4 gap-4">
+                <Link
+                  className="ring ring-violet-500 hover:bg-indigo-900 text-gray-100 py-1 px-3 rounded-full lg:text-md text-xs hover:transition-all duration-700"
+                  href="https://github.com/soup1e/portfolio"
+                  target="_blank"
+                >
+                  View Code
+                </Link>
                 <p className="text-gray-500">Feb 7, 2023</p>
               </div>
             </div>
@@ -135,7 +142,14 @@ export default function Portfolio() {
                 routes from a backend hosted with Heroku.
               </p>
 
-              <div className="flex items-center mt-4">
+              <div className="flex items-center mt-4 gap-4">
+                <Link
+                  className="ring ring-violet-500 hover:bg-indigo-900 text-gray-100 py-1 px-3 rounded-full lg:text-md text-xs hover:transition-all duration-700"
+                  href="https://github.com/Terminal-Escape"
+                  target="_blank"
+                >
+                  View Code
+                </Link>
                 <p className="text-gray-500">Dec 16, 2022</p>
               </div>
             </div>
@@ -193,7 +207,14 @@ export default function Portfolio() {
                 libraries and heavily with CSS to improve user-experience.
               </p>
 
-              <div className="flex items-center mt-4">
+              <div className="flex items-center mt-4 gap-4">
+                <Link
+                  className="ring ring-violet-500 hover:bg-indigo-900 text-gray-100 py-1 px-3 rounded-full lg:text-md text-xs hover:transition-all duration-700"
+                  href="https://github.com/morganniemeyer/boardgameselector"
+                  target="_blank"
+                >
+                  View Code
+                </Link>
                 <p className="text-gray-500">Oct 21, 2022</p>
               </div>
             </div>
