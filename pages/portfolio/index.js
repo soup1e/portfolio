@@ -67,7 +67,7 @@ export default function Portfolio() {
               >
                 View Code
               </Link>
-              <p className="text-gray-500">March 23, 2023</p>
+              <p className="text-gray-500">May 27, 2023</p>
             </footer>
           </section>
         </section>
