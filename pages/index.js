@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout title="home">
-      <div className="flex justify-center items-center h-screen bg-black">
+      <div className="flex justify-center items-center h-screen">
         <div className="flex flex-col items-start gap-3">
           <div className="flex p-5 ring ring-gray-50 rounded-lg lg:flex-row lg:items-end gap-3 flex-col">
             <h1 className="text-3xl lg:text-6xl font-bold ease-in-out duration-700 text-transparent bg-clip-text bg-gradient-to-tr from-indigo-500 to-pink-500">
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center text-center h-full">
+      <div className="flex justify-center items-center text-center h-full ">
         <div className="w-3/5">
           <h1 className="text-3xl text-gray-300 mb-5">about me //</h1>
           <p className="lg:text-l text-base text-gray-400 mb-80">
