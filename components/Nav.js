@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <nav className="flex justify-between flex-wrap p-4 gap-5 lg:fixed lg:bg-background w-full">
-      <div className="flex items-center flex-shrink-0 text-transparent bg-indigo-500 bg-clip-text hover:bg-gradient-to-tr  from-indigo-500 to-pink-500 hover:animate-bobbing">
+      <div className="flex items-center flex-shrink-0 text-transparent bg-indigo-500 bg-clip-text hover:bg-gradient-to-tr from-indigo-500 to-pink-500 hover:animate-bobbing">
         <Link href="/" className="font-semibold text-xl tracking-tight">
           sam adams
         </Link>

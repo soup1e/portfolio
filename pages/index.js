@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout title="home">
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center h-screen bg-black">
         <div className="flex flex-col items-start gap-3">
           <div className="flex p-5 ring ring-gray-50 rounded-lg lg:flex-row lg:items-end gap-3 flex-col">
             <h1 className="text-3xl lg:text-6xl font-bold ease-in-out duration-700 text-transparent bg-clip-text bg-gradient-to-tr from-indigo-500 to-pink-500">
@@ -23,7 +23,7 @@ export default function Home() {
             </Link>
             <Link
               className="ring ring-violet-500 hover:bg-indigo-900 text-gray-50 font-light py-1 px-5 rounded lg:text-md text-xs hover:transition-all duration-700"
-              href="samadamsresume.pdf"
+              href="/resume.pdf"
               target="_blank"
             >
               resume

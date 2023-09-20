@@ -17,7 +17,6 @@
 
 ### **project ideas**
 
-- discord api
 - three js
 - IdleRPG game / 2D game
 
